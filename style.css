@@ -88,6 +88,7 @@ nav ul li .menu_bars {
 
   nav ul li .menu_bars {
     display: block;
+    margin-left: 20px;
   }
   .main-section {
     display: block;
