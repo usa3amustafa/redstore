@@ -41,9 +41,11 @@ header {
   align-items: center;
   flex-wrap: wrap;
 }
-/* nav {
-  flex-basis: 50%;
+nav {
+  display: flex;
+  gap: 2em;
 }
+/*
 .logo {
   flex-basis: 50%;
 } */
@@ -55,7 +57,7 @@ nav ul {
 .fa-bars {
   font-size: 2em;
 }
-nav ul li .menu {
+nav ul li .menu_bars {
   display: none;
 }
 /* main-section  */
@@ -80,14 +82,11 @@ nav ul li .menu {
 
 /* media queries  */
 @media screen and (max-width: 480px) {
-  nav ul .nav_links {
+  nav .nav_links {
     display: none;
   }
-  nav ul {
-    gap: 1em;
-  }
-  nav ul .menu,
-  nav ul .cart {
+
+  nav ul li .menu_bars {
     display: block;
   }
   .main-section {

@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0 user-scalable=0"
+      ;
+    />
     <link rel="stylesheet" href="style.css" />
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -31,17 +35,19 @@
             <img src="./img/logo.png" alt="RedStore" class="image" />
           </div>
           <nav>
+            <ul class="nav_links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Account</a></li>
+              <li><a href="#">About</a></li>
+            </ul>
             <ul>
-              <li class="nav_links"><a href="#">Home</a></li>
-              <li class="nav_links"><a href="#">Products</a></li>
-              <li class="nav_links"><a href="#">Contact</a></li>
-              <li class="nav_links"><a href="#">Account</a></li>
-              <li class="nav_links"><a href="#">About</a></li>
-              <li class="cart">
+              <li>
                 <a href="#"><i class="fas fa-cart-plus"></i></a>
               </li>
-              <li class="menu">
-                <a href="#"><i class="fas fa-bars"></i></a>
+              <li>
+                <a class="menu_bars" href="#"><i class="fas fa-bars"></i></a>
               </li>
             </ul>
           </nav>
