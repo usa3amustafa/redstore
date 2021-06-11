@@ -39,14 +39,17 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
-nav {
-  display: flex;
-  gap: 2em;
+/* nav {
+  flex-basis: 50%;
 }
+.logo {
+  flex-basis: 50%;
+} */
 nav ul {
   display: flex;
-  gap: 2em;
+  gap: 2rem;
 }
 .fa-cart-plus,
 .fa-bars {
@@ -79,6 +82,9 @@ nav ul li .menu {
 @media screen and (max-width: 480px) {
   nav ul .nav_links {
     display: none;
+  }
+  nav ul {
+    gap: 1em;
   }
   nav ul .menu,
   nav ul .cart {
